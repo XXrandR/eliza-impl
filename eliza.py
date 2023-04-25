@@ -11,6 +11,11 @@ SCRIPT_PATH = os.path.join(SCRIPT_DIR, 'doctor.json')
 def main():
     memory_stack = []
     general_script, script, memory_inputs, exit_inputs = setup(GENERAL_SCRIPT_PATH, SCRIPT_PATH)
+    print("""
+ _ |o_  _ 
+(-`||/_(_|
+          
+          """)
     in_str = input("Eliza: Welcome.\nYou: ")
     in_str_l = in_str.lower()
     while in_str_l not in exit_inputs:
