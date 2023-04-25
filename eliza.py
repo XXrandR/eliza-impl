@@ -4,7 +4,7 @@ from tools.startup import setup
 from tools.rules import reset_all_last_used_reassembly_rule
 from tools.response import prepare_response, generate_response
 PROJECT_DIR = os.path.dirname(os.path.realpath(__file__))
-SCRIPT_DIR = os.path.join(PROJECT_DIR, 'scripts')
+SCRIPT_DIR = os.path.join(PROJECT_DIR, 'data')
 GENERAL_SCRIPT_PATH = os.path.join(SCRIPT_DIR, 'basic.json')
 SCRIPT_PATH = os.path.join(SCRIPT_DIR, 'doctor.json')
 
